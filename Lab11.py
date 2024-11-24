@@ -100,7 +100,7 @@ if __name__ == "__main__":
     choice = int(input("Enter your selection: "))
 
     if choice == 1:
-        name = input("Enter the student's name: ")
+        name = input("What is the student's name: ")
         student_id = get_id(name)
         if student_id != None:
            student_grade = get_student_grade(student_id)
