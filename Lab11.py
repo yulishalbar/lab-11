@@ -131,7 +131,7 @@ if __name__ == "__main__":
                     max = grade
                 total += grade
                 count +=1
-            avg = total / count
+            avg = total // count
             print(f"Min: {round(min)}%")
             print(f"Avg: {round(avg)}%")
             print(f"Max: {round(max)}%")
